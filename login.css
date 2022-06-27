@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1d1d2d;
+   
+}
+
+.logo{
+    width: 200px;
+    margin: 0 auto 20px;
+    
+}
+.titulo{
+    
+    color: white;
+    font-size: 1.7em;
+    margin-bottom: 100px;
+   
+}
+.log-in{
+    margin: 100px auto;
+    width: 400px;
+    position: relative;
+    height: 100vh;
+}
+.text-box   {
+    background-color:#3b3b62;
+    padding: 16px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: 1em;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+.text-box:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border: 0 none;
+}
+.botao{
+    background-color: #0474d3;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    padding: 16px;
+    font-size: 1.1em;
+    margin:  20px 0 35px;
+}
+.log-in > p {
+    color: #d8d9db;
+}
+a{
+    color:white;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+a:hover{
+    color:#8dc6ef;
+    text-decoration: underline;
+}
+.rodape-menus{
+    margin: 0 auto;
+    width: 450px;
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr, auto;
+    grid-template-rows: 20px, 2px, 1fr ;
+    grid-column-gap: 20px;
+    grid-row-gap: 2px;
+    color: white;
+    height: auto;
+
+}
+.rodapelogo{
+    margin: 0 auto;
+    height: 54.64px;
+    width: 90px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row: 1;
+}
+.rodape-link-1, .rodape-link-2, .rodape-link-3 {
+    display: flex;
+    font-size: 0.8em;
+    grid-row: 2;
+
+}
+.rodape-link-4, .rodape-link-5, .rodape-link-6,.rodape-link-7{
+    grid-row: 3;
+}
+.rodape-texto{
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    grid-row: 4;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    
+    font-size: 0.5;
+}
